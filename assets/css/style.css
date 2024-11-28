@@ -1,0 +1,154 @@
+@font-face {
+  font-family: raleway-light;
+  src: url(../fonts/raleway-light.ttf);
+}
+
+@font-face {
+  font-family: raleway-thin;
+  src: url(../fonts/raleway-thin.ttf.ttf);
+}
+
+body {
+  background-color: black;
+  color: #fff;
+  font-family: raleway-thin;
+}
+
+/* -------- HEADER -------- 👇🏻 */
+header {
+  background-color: #000000;
+  font-family: raleway-light;
+  text-align: center;
+}
+
+header h1 {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-size: 50px;
+}
+
+header image {
+  width: 1280px;
+  height: 727px;
+}
+
+.bg-header {
+  background-image: url(../imgs/bg-header.jpg);
+  background-size: cover;
+  width: 1280px;
+  height: 727px;
+}
+
+/* -------- SECCIÓN 1 Descripción -------- 👇🏻 */
+.flexbox-section_01 {
+  display: flex;
+  gap: 106px;
+  align-items: center;
+}
+
+.margin_top-section_01 {
+  margin-top: 76px;
+}
+
+.section_01 img {
+  width: 399px;
+  height: 237px;
+  padding-top: 45px;
+  padding-right: 150px;
+}
+
+.section_01 p {
+  font-size: 16px;
+  padding-left: 150px;
+}
+
+/* -------- SECCIÓN 2 Características -------- 👇🏻 */
+.section_02 {
+  background-color: #1e1a13;
+  margin-top: 66px;
+  margin-bottom: 73px;
+  width: 1280px;
+  height: 348px;
+}
+
+.section_02 h2 {
+  font-family: raleway-light;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding-top: 74px;
+  padding-bottom: 50px;
+}
+
+.flexbox-section_02 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.flexbox-section_02 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+}
+
+.section_02 p {
+  font-size: 25px;
+  margin: 0px;
+  padding-top: 16px;
+}
+
+.padding-eye {
+  padding-left: 355px;
+  padding-right: 237.41px;
+}
+
+.padding-eye_tex {
+  padding-left: 301px;
+  padding-right: 182px;
+}
+
+.padding-hand {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.padding-brush {
+  padding-right: 340px;
+  padding-left: 255.66px;
+}
+
+.padding-brush_text {
+  padding-right: 243.12px;
+  padding-left: 145.88px;
+}
+
+/* -------- SECCIÓN 3 Galería Iguanas -------- 👇🏻 */
+.flexbox-section_03 {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.flexbox-section_03 img {
+  width: 316px;
+  height: 202px;
+}
+
+/* -------- FOOTER -------- 👇🏻 */
+footer {
+  width: 1280px;
+  height: 102px;
+  background-color: #1e1a13;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 73px;
+  margin-bottom: 0px;
+  padding-top: 39px;
+}
